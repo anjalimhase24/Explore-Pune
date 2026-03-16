@@ -1,4 +1,38 @@
-/* Contact Section */
+body{
+margin:0;
+font-family:Arial;
+}
+
+/* Navbar */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#02390b;
+padding:12px 35px;
+}
+
+.logo{
+color:white;
+}
+
+.navbar ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+.navbar a:hover{
+color:orange;
+}
+
 
 .contact{
 padding:40px;
