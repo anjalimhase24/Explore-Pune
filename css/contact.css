@@ -1,0 +1,73 @@
+/* Contact Section */
+
+.contact{
+padding:40px;
+text-align:center;
+background:white;
+}
+
+.contact-container{
+display:flex;
+gap:30px;
+justify-content:center;
+margin-top:20px;
+flex-wrap:wrap;
+}
+
+.contact-form{
+display:flex;
+flex-direction:column;
+gap:10px;
+width:300px;
+}
+
+.contact-form input,
+.contact-form textarea{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.contact-form button{
+padding:10px;
+background:orange;
+border:none;
+color:white;
+font-size:16px;
+cursor:pointer;
+border-radius:5px;
+}
+
+.contact-form button:hover{
+background:darkorange;
+}
+
+
+/* Map */
+
+.map{
+width:300px;
+}
+
+
+/* Social Media */
+
+.social{
+text-align:center;
+padding:30px;
+background:#f4f4f4;
+}
+
+.icons{
+margin-top:10px;
+}
+
+.icons a{
+font-size:25px;
+margin:10px;
+color:#333;
+}
+
+.icons a:hover{
+color:orange;
+}
