@@ -1,0 +1,111 @@
+body{
+margin:0;
+font-family:Arial;
+}
+
+/* Navbar */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#02390b;
+padding:12px 35px;
+}
+
+.logo{
+color:white;
+}
+
+.navbar ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+.navbar a:hover{
+color:orange;
+}
+
+/* Hero Section */
+
+.hero{
+background:url("../images/pune.jpg");
+height:400px;
+background-size:cover;
+background-position:center;
+color:white;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:45px;
+}
+
+/* Intro */
+
+.intro{
+padding:40px;
+text-align:center;
+}
+
+/* Places */
+
+.places{
+padding:40px;
+background:#f4f4f4;
+text-align:center;
+}
+
+.place-container{
+display:flex;
+gap:20px;
+justify-content:center;
+}
+
+.place-card{
+background:white;
+padding:20px;
+border-radius:10px;
+width:300px;
+}
+
+.place-card img{
+width:100%;
+border-radius:10px;
+}
+
+/* Footer */
+
+footer{
+background:#02390b;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:20px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.place-container{
+flex-direction:column;
+align-items:center;
+}
+
+.navbar{
+flex-direction:column;
+}
+
+}
